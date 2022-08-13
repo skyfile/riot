@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-ego/riot"
-	"github.com/go-ego/riot/types"
+	"github.com/skyfile/riot"
+	"github.com/skyfile/riot/types"
 )
 
 const (

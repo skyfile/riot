@@ -13,8 +13,8 @@ import (
 	"os/signal"
 	"strconv"
 
-	"github.com/go-ego/riot"
-	"github.com/go-ego/riot/types"
+	"github.com/skyfile/riot"
+	"github.com/skyfile/riot/types"
 )
 
 const (
@@ -142,7 +142,7 @@ func main() {
 	flag.Parse()
 
 	// 初始化
-	//gob.Register(WeiboScoringFields{})
+	// gob.Register(WeiboScoringFields{})
 	log.Println("searcher init start...")
 
 	searcher.Init(types.EngineOpts{
@@ -150,7 +150,7 @@ func main() {
 		GseDict:       *dictFile,
 		StopTokenFile: *stopTokenFile,
 		IndexerOpts: &types.IndexerOpts{
-			//IndexType: types.LocsIndex,
+			// IndexType: types.LocsIndex,
 			IndexType: types.DocIdsIndex,
 		},
 		// 如果你希望使用持久存储，启用下面的选项

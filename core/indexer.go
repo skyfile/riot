@@ -25,8 +25,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/go-ego/riot/types"
-	"github.com/go-ego/riot/utils"
+	"github.com/skyfile/riot/types"
+	"github.com/skyfile/riot/utils"
 )
 
 // Indexer 索引器
@@ -501,7 +501,7 @@ func (indexer *Indexer) internalLookup(
 						})
 					}
 					numDocs++
-					//当某个关键字对应多个文档且有 lable 关键字存在时，若直接 break,
+					// 当某个关键字对应多个文档且有 lable 关键字存在时，若直接 break,
 					// 将会丢失相当一部分搜索结果
 					continue
 				}

@@ -21,7 +21,7 @@ import (
 	"encoding/gob"
 	"sync/atomic"
 
-	"github.com/go-ego/riot/types"
+	"github.com/skyfile/riot/types"
 )
 
 type storeIndexDocReq struct {

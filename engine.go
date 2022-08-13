@@ -32,14 +32,14 @@ import (
 
 	"sync/atomic"
 
-	"github.com/go-ego/riot/core"
-	"github.com/go-ego/riot/store"
-	"github.com/go-ego/riot/types"
-	"github.com/go-ego/riot/utils"
+	"github.com/skyfile/riot/core"
+	"github.com/skyfile/riot/store"
+	"github.com/skyfile/riot/types"
+	"github.com/skyfile/riot/utils"
 
 	"github.com/go-ego/gse"
 	"github.com/go-ego/murmur"
-	"github.com/shirou/gopsutil/mem"
+	"github.com/shirou/gopsutil/v3/mem"
 )
 
 const (
@@ -636,7 +636,7 @@ func (engine *Engine) RankID(request types.SearchReq, rankOpts types.RankOpts,
 	numDocs := 0
 	rankOutput := types.ScoredIDs{}
 
-	//**********/ begin
+	// **********/ begin
 	timeout := request.Timeout
 	isTimeout := false
 	if timeout <= 0 {
@@ -689,7 +689,7 @@ func (engine *Engine) Ranks(request types.SearchReq, rankOpts types.RankOpts,
 	numDocs := 0
 	rankOutput := types.ScoredDocs{}
 
-	//**********/ begin
+	// **********/ begin
 	timeout := request.Timeout
 	isTimeout := false
 	if timeout <= 0 {

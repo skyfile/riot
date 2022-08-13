@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ego/riot"
-	"github.com/go-ego/riot/types"
+	"github.com/skyfile/riot"
+	"github.com/skyfile/riot/types"
 )
 
 const (
@@ -259,7 +259,7 @@ func TestBM() {
 
 	if *usePersistent {
 		useStore(tBeginInit, tEndInit)
-		//os.RemoveAll(*storeFolder)
+		// os.RemoveAll(*storeFolder)
 	}
 
 	log.Println("end...")

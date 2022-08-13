@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ego/riot/net/com"
+	"github.com/skyfile/riot/net/com"
 )
 
 var (
