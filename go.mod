@@ -13,9 +13,9 @@ require (
 	github.com/go-ego/gpy v0.31.0
 	github.com/go-ego/gse v0.50.3
 	github.com/go-ego/murmur v0.10.0
-	github.com/go-vgo/grpclb v0.0.0-20181128171039-89526b0a742e
-	github.com/go-vgo/gt/conf v0.0.0-20200606140533-a397c46789df
-	github.com/go-vgo/gt/info v0.0.0-20200606140533-a397c46789df
+	github.com/go-vgo/grpclb v0.0.0-20190314143414-fd3e562c920a
+	github.com/go-vgo/gt/conf v0.0.0-20220507033723-843e56ab8bd1
+	github.com/go-vgo/gt/info v0.0.0-20220507033723-843e56ab8bd1
 	github.com/go-vgo/zlog v0.0.0-20200606142114-9aade0d23ce3
 	github.com/gogo/protobuf v1.2.1
 	github.com/golang/groupcache v0.0.0-20191027212112-611e8accdfc9 // indirect
@@ -29,15 +29,14 @@ require (
 	github.com/jonboulle/clockwork v0.1.0 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
-	github.com/pelletier/go-toml v1.8.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.2.1 // indirect
 	github.com/prometheus/client_model v0.0.0-20191202183732-d1d2010b5bee // indirect
-	github.com/shirou/gopsutil/v3 v3.21.12
+	github.com/shirou/gopsutil/v3 v3.22.3
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
-	github.com/vcaesar/tt v0.10.0
+	github.com/vcaesar/tt v0.20.0
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.etcd.io/bbolt v1.3.4
 	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9 // indirect
@@ -47,4 +46,5 @@ require (
 	google.golang.org/grpc v1.27.0
 	google.golang.org/protobuf v1.24.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
